@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/JoyStick.uss?fileID=7433441132597879392&amp;guid=3d5cb44e8318500418e3c1054d16b2dc&amp;type=3#JoyStick" />
+    <ui:VisualElement name="joystick-container" class="joystick-container" style="left: 35%; right: 30%;">
+        <ui:VisualElement name="joystick-background" class="joystick-background" style="max-width: 80%; max-height: 80%; min-width: 50%; min-height: 50%; right: auto; left: auto;" />
+        <ui:VisualElement name="joystick-handle" class="joystick-handle" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Level/Goal.uss?fileID=7433441132597879392&amp;guid=e9d2f7f7e5f30394a9c9af34bfc7165b&amp;type=3#Goal" />
+    <ui:VisualElement name="collectibleContainer" class="matrix-container" style="max-width: 50%; max-height: 20%; height: 13%;">
+        <ui:VisualElement name="matrix-item" class="matrix-item" style="flex-grow: 1; margin-right: 10px; margin-left: 10px; max-width: 15%; max-height: 100%; width: 10%; height: 100%;">
+            <ui:VisualElement name="matrix-item-icon" class="matrix-item-icon" style="flex-grow: 1;" />
+            <ui:Label text="Label" name="matrix-item-count" class="matrix-item-count" />
+        </ui:VisualElement>
+        <ui:VisualElement name="matrix-item" class="matrix-item" style="flex-grow: 1; margin-right: 10px; margin-left: 10px;">
+            <ui:VisualElement name="matrix-item-icon" class="matrix-item-icon" style="flex-grow: 1;" />
+            <ui:Label text="Label" name="matrix-item-count" class="matrix-item-count" />
+        </ui:VisualElement>
+        <ui:VisualElement name="matrix-item" class="matrix-item" style="flex-grow: 1; margin-right: 10px; margin-left: 10px;">
+            <ui:VisualElement name="matrix-item-icon" class="matrix-item-icon" style="flex-grow: 1;" />
+            <ui:Label text="Label" name="matrix-item-count" class="matrix-item-count" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
